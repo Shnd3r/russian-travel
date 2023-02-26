@@ -21,6 +21,7 @@
     grid-template-columns: minmax(auto, 340px) 1fr;
     column-gap: 28px;
   }
+
   .place:not(:first-child) {
     margin-top: 72px;
   }
@@ -28,11 +29,12 @@
 
 @media (max-width: 750px) {
   .place {
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     gap: 32px 0;
   }
+
   .place:not(:first-child) {
-    margin-top: 52px;
+    margin-top: 50px;
   }
 }

@@ -3,6 +3,5 @@
   margin: 0;
   list-style-type: none;
   display: flex;
-  align-items: end;
   column-gap: 18px;
 }
